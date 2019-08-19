@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Map /> renders with null markers as prop 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    style={
+      Object {
+        "height": "100vh",
+      }
+    }
+  >
+    <withScriptjs(withGoogleMap(Component))
+      center={
+        Object {
+          "lat": 39.833333,
+          "lng": -98.583333,
+        }
+      }
+      containerElement={
+        <div
+          style={
+            Object {
+              "height": "100vh",
+            }
+          }
+        />
+      }
+      defaultZoom={4}
+      googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDefemPJ5EoyQ2ufccWaT1pjus5zTiEP5s"
+      loadingElement={<div />}
+      mapElement={
+        <div
+          style={
+            Object {
+              "height": "100vh",
+            }
+          }
+        />
+      }
+      markers={Array []}
+    />
+  </div>,
+  "nodes": Array [
+    <div
+      style={
+        Object {
+          "height": "100vh",
+        }
+      }
+    >
+      <withScriptjs(withGoogleMap(Component))
+        center={
+          Object {
+            "lat": 39.833333,
+            "lng": -98.583333,
+          }
+        }
+        containerElement={
+          <div
+            style={
+              Object {
+                "height": "100vh",
+              }
+            }
+          />
+        }
+        defaultZoom={4}
+        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDefemPJ5EoyQ2ufccWaT1pjus5zTiEP5s"
+        loadingElement={<div />}
+        mapElement={
+          <div
+            style={
+              Object {
+                "height": "100vh",
+              }
+            }
+          />
+        }
+        markers={Array []}
+      />
+    </div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_didScheduleRenderPhaseUpdate": false,
+    "_dispatcher": Object {
+      "readContext": [Function],
+      "useCallback": [Function],
+      "useContext": [Function],
+      "useDebugValue": [Function],
+      "useEffect": [Function],
+      "useImperativeHandle": [Function],
+      "useLayoutEffect": [Function],
+      "useMemo": [Function],
+      "useReducer": [Function],
+      "useRef": [Function],
+      "useResponder": [Function],
+      "useState": [Function],
+    },
+    "_element": <Map
+      center={
+        Object {
+          "lat": 39.833333,
+          "lng": -98.583333,
+        }
+      }
+      defaultZoom={4}
+      markers={null}
+    />,
+    "_firstWorkInProgressHook": null,
+    "_forcedUpdate": false,
+    "_instance": Map {
+      "context": Object {},
+      "markerArray": Array [],
+      "props": Object {
+        "center": Object {
+          "lat": 39.833333,
+          "lng": -98.583333,
+        },
+        "defaultZoom": 4,
+        "markers": null,
+      },
+      "refs": Object {},
+      "render": [Function],
+      "state": null,
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_isReRender": false,
+    "_newState": null,
+    "_numberOfReRenders": 0,
+    "_renderPhaseUpdates": null,
+    "_rendered": <div
+      style={
+        Object {
+          "height": "100vh",
+        }
+      }
+    >
+      <withScriptjs(withGoogleMap(Component))
+        center={
+          Object {
+            "lat": 39.833333,
+            "lng": -98.583333,
+          }
+        }
+        containerElement={
+          <div
+            style={
+              Object {
+                "height": "100vh",
+              }
+            }
+          />
+        }
+        defaultZoom={4}
+        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDefemPJ5EoyQ2ufccWaT1pjus5zTiEP5s"
+        loadingElement={<div />}
+        mapElement={
+          <div
+            style={
+              Object {
+                "height": "100vh",
+              }
+            }
+          />
+        }
+        markers={Array []}
+      />
+    </div>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "_workInProgressHook": null,
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Map
+    center={
+      Object {
+        "lat": 39.833333,
+        "lng": -98.583333,
+      }
+    }
+    defaultZoom={4}
+    markers={null}
+  />,
+}
+`;

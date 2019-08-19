@@ -1,0 +1,49 @@
+{
+  "name": "dashboard-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@cubejs-client/core": "^0.10.16",
+    "@cubejs-client/react": "^0.10.16",
+    "@types/enzyme": "^3.10.3",
+    "@types/jest": "^24.0.17",
+    "@types/node": "^12.7.1",
+    "@types/react": "^16.9.1",
+    "@types/react-dom": "^16.8.5",
+    "@types/googlemaps": "^3.26.20",
+    "antd": "^3.21.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.0",
+    "react-google-maps": "github:mxl/react-google-maps#typescript-definitions",
+    "typescript": "^3.5.3",
+    "bizcharts": "^3.5.5"
+  },
+  "devDependencies": {
+    "enzyme": "^2.9.1",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "react-addons-test-utils": "^15.4.2",
+    "react-scripts-ts": "1.0.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
