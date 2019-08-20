@@ -13,7 +13,7 @@ type MapProps = {
   markers: Array<any>
 }
 
-const googleMapURL = 'https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDefemPJ5EoyQ2ufccWaT1pjus5zTiEP5s'
+const googleMapURL = 'https://maps.googleapis.com/maps/api/js?v=3.exp&key=YourAPIKey'
 
 const MyGoogleMap = withScriptjs(withGoogleMap((props:MapProps) =>
         <GoogleMap
