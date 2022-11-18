@@ -14,7 +14,7 @@
     "antd": "^3.21.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.0",
+    "react-scripts": "5.0.1",
     "react-google-maps": "github:mxl/react-google-maps#typescript-definitions",
     "typescript": "^3.5.3",
     "bizcharts": "^3.5.5"
@@ -23,7 +23,7 @@
     "enzyme": "^2.9.1",
     "enzyme-adapter-react-16": "^1.14.0",
     "react-addons-test-utils": "^15.4.2",
-    "react-scripts-ts": "1.0.6"
+    "react-scripts-ts": "3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
